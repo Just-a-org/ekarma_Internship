@@ -1,0 +1,7 @@
+Website and Why we use it?
+What is a Web Page?
+What is a Web Development and App?
+Static vs Dynamic Websites?
+What is a Web Server?
+What is a Domain and Hosting?
+What is WWW and HTTPS?
