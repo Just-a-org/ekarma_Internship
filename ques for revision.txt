@@ -1,7 +1,19 @@
-Website and Why we use it?
+What is Website and Why we use it?
+A website is collectoin of linked web pages (plus their associated resources) that share a unique domain name. Each web page of a given website provides explicit links- most of the time in the form of clickable portions of text-that allow the user to move from one page of the website to another.
+To access a website, type its domain name in your browser address bar, and the browser will display the website's main web page or homepage.
+Note that it is also possible to have a single page website.
+
 What is a Web Page?
+a web page is a simple document displayed by a browser in the html language a web page can embed a variety of different types of resources such as
+Style information. controlling a page's Look and feel
+
+
 What is a Web Development and App?
+
 Static vs Dynamic Websites?
+
 What is a Web Server?
+
 What is a Domain and Hosting?
+
 What is WWW and HTTPS?
