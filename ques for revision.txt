@@ -4,9 +4,8 @@ To access a website, type its domain name in your browser address bar, and the b
 Note that it is also possible to have a single page website.
 
 What is a Web Page?
-a web page is a simple document displayed by a browser in the html language a web page can embed a variety of different types of resources such as
-Style information. controlling a page's Look and feel
-
+A web page is a simple document displayed by a browser in the html language. A web page can embed a variety of different types of resources such as
+Style information - controlling a page's Look and feel
 
 What is a Web Development and App?
 
@@ -17,3 +16,17 @@ What is a Web Server?
 What is a Domain and Hosting?
 
 What is WWW and HTTPS?
+
+What is Fullstack Development?
+
+What is tags? Why do we use it?
+
+What are the empty tags? standard way of using them.
+
+What are attributes? what are the new attributes lauched in html5>
+
+Which attributes should not be used according to standards?
+
+What is footer area?
+
+what is list element and Nested list? and types of list?
