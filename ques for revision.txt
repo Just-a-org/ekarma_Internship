@@ -7,6 +7,10 @@ What is a Web Page?
 A web page is a simple document displayed by a browser in the html language. A web page can embed a variety of different types of resources such as
 Style information - controlling a page's Look and feel
 
+Scripts - which add Interactivity To the page
+Media - images, sounds and videos
+
+All web pages available on the web
 What is a Web Development and App?
 
 Static vs Dynamic Websites?
