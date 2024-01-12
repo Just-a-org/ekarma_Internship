@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Registration</title>
+	</head>
+	<body>
+		<form name="registration" action="#" method="get">
+			<p>
+				<label for="fname"> First Name </label>
+				<input
+					type="text"
+					name="fname"
+					id="fname"
+					placeholder="Enter your Name"
+					autocomplete="off"
+					autocapitalize="words"
+					pattern="[A-Za-z]{2,10}" />
+			</p>
+			<p>
+				<label for="lname"> Last Name </label>
+				<input
+					type="text"
+					name="lname"
+					id="lname"
+					autocomplete="off"
+					placeholder="Enter your Last Name" />
+			</p>
+			<p>
+				<label for="age"> Age </label>
+				<input type="number" name="age" id="age"
+				placeholder="Enter age in Numbers" pattern="[0-9]{1,3}" />
+			</p>
+			<p>
+				<label for="email"> Email </label>
+				<input type="email" name="email" id="email" autocomplete="off" placeholder=""/>
+			</p>
+			<p>
+				<label for="password"> Password </label>
+				<input
+					type="password"
+					name="password"
+					id="password"
+					autocomplete="off" />
+			</p>
+
+			<p>
+				<label for="mobile"> Mobile </label>
+				<input type="text" name="mobile" id="mobile" pattern="[0-9]{10}" />
+			</p>
+			<p>
+				<label for="date"> Date of Joining </label>
+				<input type="date" name="date" id="date" autocomplete="off" />
+			</p>
+			<p>
+				<label for="image"> upload Image </label>
+				<input type="file" name="image" id="image" autocomplete="off" />
+			</p>
+			<p>
+				Gender :
+				<input type="radio" name="gender" value="Male" /> Male
+				<input type="radio" name="gender" value="Female" /> Female
+			</p>
+			<p>
+				Skills :
+				<input type="checkbox" name="skills" value="php" />PHP
+				<input type="checkbox" name="skills" value="java" />Java
+				<input type="checkbox" name="skills" value="html" />HTML
+				<input type="checkbox" name="skills" value="css" />CSS
+			</p>
+			<p>
+				<label for="city">Country or City</label>
+				<select name="city" id="city">
+					<option value="">Select City</option>
+					<option value="">Mohali</option>
+					<option value="">Delhi</option>
+					<option value="">Haryana</option>
+					<option value="">UP</option>
+				</select>
+			</p>
+			<p>
+				<label for="feedback">feedback</label>
+				<textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+			</p>
+			<p>
+				<button type="submit"> Submit </button>
+				<button type="reset"> Reset </button>
+			</p>
+		</form>
+	</body>
+</html>

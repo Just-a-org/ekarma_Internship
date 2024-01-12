@@ -34,3 +34,11 @@ Which attributes should not be used according to standards?
 What is footer area?
 
 what is list element and Nested list? and types of list?
+
+What is Validation and How Regular Expressions are used for them?
+
+What are the latest input types in html?
+
+What is CSS? Types of css. Properties of CSS to revise:-
+1.text properties such as color, decoration, line
+2.font properties
