@@ -1,0 +1,22 @@
+h1 {
+	color: brown !important;
+	text-align: center;
+	text-decoration: underline black dotted 1vh;
+}
+
+h2 {
+	/* color: aqua ;
+  text-align: center; */
+	font-style: italic;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p {
+	height: 300px;
+}
+body {
+	margin: 50px;
+	background-repeat: no-repeat;
+	background-image: url(https://tse2.mm.bing.net/th/id/OIP.xung4mlBfvUR3RKzjnRY2AHaEK?pid=ImgDet&w=226&h=127.125&c=7);
+	background-position: right;
+}

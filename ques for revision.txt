@@ -1,9 +1,9 @@
-What is Website and Why we use it?
+1. What is Website and Why we use it?
 A website is collectoin of linked web pages (plus their associated resources) that share a unique domain name. Each web page of a given website provides explicit links- most of the time in the form of clickable portions of text-that allow the user to move from one page of the website to another.
 To access a website, type its domain name in your browser address bar, and the browser will display the website's main web page or homepage.
 Note that it is also possible to have a single page website.
 
-What is a Web Page?
+2. What is a Web Page?
 A web page is a simple document displayed by a browser in the html language. A web page can embed a variety of different types of resources such as
 Style information - controlling a page's Look and feel
 
@@ -11,34 +11,41 @@ Scripts - which add Interactivity To the page
 Media - images, sounds and videos
 
 All web pages available on the web
-What is a Web Development and App?
 
-Static vs Dynamic Websites?
+3. What is a Web Development and App?
 
-What is a Web Server?
+4. Static vs Dynamic Websites?
 
-What is a Domain and Hosting?
+5. What is a Web Server?
 
-What is WWW and HTTPS?
+6. What is a Domain and Hosting?
 
-What is Fullstack Development?
+7. What is WWW and HTTPS?
 
-What is tags? Why do we use it?
+8. What is Fullstack Development?
 
-What are the empty tags? standard way of using them.
+9. What is tags? Why do we use it?
 
-What are attributes? what are the new attributes lauched in html5>
+10. What are the empty tags? standard way of using them.
 
-Which attributes should not be used according to standards?
+1. What are attributes? what are the new attributes lauched in html5>
 
-What is footer area?
+12. Which attributes should not be used according to standards?
 
-what is list element and Nested list? and types of list?
+13. What is footer area?
 
-What is Validation and How Regular Expressions are used for them?
+14. what is list element and Nested list? and types of list?
 
-What are the latest input types in html?
+15. What is Validation and How Regular Expressions are used for them?
 
-What is CSS? Types of css. Properties of CSS to revise:-
-1.text properties such as color, decoration, line
-2.font properties
+16. What are the latest input types in html?
+
+17. What is CSS? Types of css. Properties of CSS to revise:-
+a. text properties such as color, decoration, line
+b. font properties
+c. column
+d. opacity/Transparency (0.0-1.0)
+e. marging
+f. padding
+
+18. display, box model, list, float, table borders, layout structure
