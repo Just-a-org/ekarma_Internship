@@ -10,110 +10,117 @@
 		<table>
 			<tr>
 				<td>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. In,
-					voluptates quibusdam fugiat modi rem deleniti consectetur! Commodi
-					assumenda facere voluptas ducimus, rerum laboriosam sed iste cumque
-					ullam numquam debitis voluptatem.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+					aliquid, mollitia atque quae assumenda in magnam voluptatibus cumque
+					excepturi accusamus culpa dolores nulla exercitationem minus
+					architecto natus totam, dolore quam?
 				</td>
 				<td>
-					<h1>Doctor Appointment Form</h1>
-					<hr color="red" />
-					<form action="#" method="get" class="container">
-					<table>
-						<tr>
-							<th>
-								<label for="date">Appointment Date</label>
-							</th>
-							<td>
-								<input type="date" name="date" id="date" />
-							</td>
-							<tr>
-								<th>
-									<label for="time">Appointment Time</label>
-								</th>
-								<td>
-									<input type="time" name="time" id="time" />
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<label for="fname">Name</label>
-								</th>
-								<td>
-									<input type="text" name="fname" id="fname" placeholder="First" />
-								</td>
-								<td>
-									<input type="text" name="lname" id="lname" placeholder="Last" />
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<label for="gender">Gender</label>
-								</th>
-								<td>
-									<strong>Male</strong>
-									<input type="radio" name="gender" id="male" />
-									<strong>Female</strong>
-									<input type="radio" name="gender" id="female" />
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<label for="phone">Phone</label>
-								</th>
-								<td>
-									<input type="tel" name="phone" id="phone" placeholder=" # # # #" />
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<label for="city">Address</label>
-								</th>
-								<td>
-									<input type="text" name="city" id="city" placeholder="city" />
-								</td>
-								<td>
-									<input type="text" name="state" id="state" placeholder="state" />
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<label for="query">Your Query</label>
-								</th>
-								<td>
-									<textarea name="query" id="query" cols="25" rows="3"></textarea>
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<label for="appointment">Appointment Type</label>
-								</th>
-								<td>
-									Select which appointment type(s) you require
-									<p>
-										<input type="checkbox" name="appointment" id="Cervix" />
-										Cervix checkup
-									</p>
-									<p>
-										<input type="checkbox" name="appointment" id="Heart" /> Heart
-										checkup
-									</p>
-									<p>
-										<input type="checkbox" name="appointment" id="Eye" /> Eye checkup
-									</p>
-									<p>
-										<input type="checkbox" name="appointment" id="Hearing" />
-										Hearing Test
-									</p>
-								</td>
-							</tr>
-							<tr><th></th>
-							<td>
-								<button type="submit">Send</button>
-							</td></tr>
-					</form>
-					</tr>
-					</table>
+					<div class="container">
+						<h1>Doctor Appointment Form</h1>
+						<hr color="red" />
+						<form action="#" method="get">
+							<table>
+								<tr>
+									<th><label for="date">Appointment Date</label></th>
+									<td><input type="date" name="date" id="date" /></td>
+								</tr>
+								<tr>
+									<th><label for="time">Appointment Time</label></th>
+									<td><input type="time" name="time" id="time" /></td>
+								</tr>
+								<tr>
+									<th><label for="fname">Name</label></th>
+									<td>
+										<input
+											type="text"
+											name="fname"
+											id="fname"
+											placeholder="First" />
+									</td>
+									<td>
+										<input
+											type="text"
+											name="lname"
+											id="lname"
+											placeholder="Last" />
+									</td>
+								</tr>
+								<tr>
+									<th><label for="gender">Gender</label></th>
+									<td>
+										<label for="male"><strong>Male</strong></label>
+										<input type="radio" name="gender" id="male" />
+										<label for="female"><strong>Female</strong></label>
+										<input type="radio" name="gender" id="female" />
+									</td>
+								</tr>
+								<tr>
+									<th><label for="phone">Phone</label></th>
+									<td>
+										<input
+											type="tel"
+											name="phone"
+											id="phone"
+											placeholder=" # # # #" />
+									</td>
+								</tr>
+								<tr>
+									<th><label for="city">Address</label></th>
+									<td>
+										<input
+											type="text"
+											name="city"
+											id="city"
+											placeholder="City" />
+									</td>
+									<td>
+										<input
+											type="text"
+											name="state"
+											id="state"
+											placeholder="State" />
+									</td>
+								</tr>
+								<tr>
+									<th><label for="query">Your Query</label></th>
+									<td>
+										<textarea
+											name="query"
+											id="query"
+											cols="25"
+											rows="3"></textarea>
+									</td>
+								</tr>
+								<tr>
+									<th><label for="appointment">Appointment Type</label></th>
+									<td>
+										Select which appointment type(s) you require
+										<p>
+											<input type="checkbox" name="appointment" id="Cervix" />
+											Cervix checkup
+										</p>
+										<p>
+											<input type="checkbox" name="appointment" id="Heart" />
+											Heart checkup
+										</p>
+										<p>
+											<input type="checkbox" name="appointment" id="Eye" /> Eye
+											checkup
+										</p>
+										<p>
+											<input type="checkbox" name="appointment" id="Hearing" />
+											Hearing Test
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<th></th>
+									<td><button type="submit">Send</button></td>
+								</tr>
+							</table>
+						</form>
+					</div>
 				</td>
 			</tr>
 		</table>
