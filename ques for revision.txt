@@ -44,8 +44,17 @@ All web pages available on the web
 a. text properties such as color, decoration, line
 b. font properties
 c. column
-d. opacity/Transparency (0.0-1.0)
+d. opacity/Transparency (0.0 - 1.0)
 e. marging
 f. padding
 
 18. display, box model, list, float, table borders, layout structure
+
+practice:
+  Periodic Table Of Type CSS Grid
+
+19. Semantic Elements, header, nav, section, footer, aside, main, article,
+
+project:topics
+  quiz, exam portal, shopping, crypto, social media clone, movies booking, bookmyshow, e-learning platform
+  (timer, options, database, ) synopsis

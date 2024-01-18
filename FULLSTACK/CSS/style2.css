@@ -1,0 +1,21 @@
+p {
+	text-align: justify;
+	color: red;
+	border: 1px solid black;
+}
+.para1 {
+}
+.para2 {
+	border: solid red 1px;
+	color: black;
+	text-align: center;
+}
+.content {
+	width: 500px;
+	height: auto;
+	border: solid black 1px;
+	background-color: aliceblue;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}

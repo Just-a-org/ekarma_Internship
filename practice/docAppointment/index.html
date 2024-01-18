@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Doctor's Appointment</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="c1">
+			<img
+				src="/ASSIGNMENTS/1/528263c503beda23d2f2fa58bf7cfb7e.jpg"
+				alt="images" />
+		</div>
+		<div class="c2">
+			<h1>Doctor Appointment Form</h1>
+			<hr color="red" />
+			<form action="#" method="get">
+				<div class="row">
+					<label for="date">Appointment Date</label>
+					<input type="date" name="date" id="date" />
+				</div>
+				<div class="row">
+					<label for="time">Appointment Time</label>
+					<input type="time" name="time" id="time" />
+				</div>
+				<div class="row">
+					<label for="fname">Name</label>
+					<div>
+						<input type="text" name="fname" id="fname" placeholder="First" />
+						<input type="text" name="lname" id="lname" placeholder="Last" />
+					</div>
+				</div>
+				<div class="row">
+					<label for="gender">Gender</label>
+					<div>
+						<label for="male"><strong>Male</strong> </label>
+						<input type="radio" name="gender" id="male" />
+						<label for="female"><strong>Female</strong></label>
+						<input type="radio" name="gender" id="female" />
+					</div>
+				</div>
+				<div class="row">
+					<label for="phone">Phone</label>
+					<input type="tel" name="phone" id="phone" placeholder=" # # # #" />
+				</div>
+				<div class="row">
+					<label for="city">Address</label>
+					<div>
+						<input type="text" name="city" id="city" placeholder="City" />
+						<input type="text" name="state" id="state" placeholder="State" />
+					</div>
+				</div>
+				<div class="row items2">
+					<label for="query">Your Query</label>
+					<textarea name="query" id="query" cols="25" rows="3"></textarea>
+				</div>
+				<div class="row">
+					<label for="appointment">Appointment Type</label>
+					<div>
+						Select which appointment type(s) you require
+						<p>
+							<input type="checkbox" name="appointment" id="cervix" />
+							Cervix checkup
+						</p>
+						<p>
+							<input type="checkbox" name="appointment" id="heart" />
+							Heart checkup
+						</p>
+						<p>
+							<input type="checkbox" name="appointment" id="eye" />
+							Eye checkup
+						</p>
+						<p>
+							<input type="checkbox" name="appointment" id="hearing" />
+							Hearing Test
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div></div>
+					<div>
+						<button type="submit">Send</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

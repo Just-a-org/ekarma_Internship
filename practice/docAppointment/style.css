@@ -1,0 +1,38 @@
+body {
+	margin-left: 5%;
+	display: flex;
+	width: 80%;
+	font-size: 1.5em;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.c2 {
+	width: 100%;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 40% auto;
+	grid-column-gap: 20px;
+	margin-top: 2%;
+}
+
+input {
+	width: fit-content;
+	font-size: 1rem;
+	padding: 1% 0% 1% 1%;
+}
+
+.items2 {
+	grid-template-columns: 40% 30%;
+}
+
+button {
+	width: 15%;
+	font-size: 1rem;
+	padding: 1% 0% 1% 1%;
+}

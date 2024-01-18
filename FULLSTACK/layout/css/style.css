@@ -1,0 +1,38 @@
+header {
+	height: 100px;
+	max-width: 100%;
+	border: black 1px;
+	border-style: groove;
+	background-color: antiquewhite;
+}
+
+header h2 {
+	float: right;
+}
+
+#banner {
+	height: auto;
+	max-width: 100%;
+	border: red 1px;
+	border-style: groove;
+	background-image: url(../images/sebastian-luna-18968280.jpg);
+	background-repeat: no-repeat;
+
+}
+
+#products {
+	height: auto;
+	max-width: 100%;
+	border: black 1px;
+	border-style: groove;
+	padding: 0%;
+	display: flex;
+}
+
+.pdata {
+	float: left;
+	height: 200px;
+	width: 30%;
+	border: 1px black;
+	border-style: groove;
+}
