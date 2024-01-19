@@ -58,3 +58,7 @@ practice:
 project:topics
   quiz, exam portal, shopping, crypto, social media clone, movies booking, bookmyshow, e-learning platform
   (timer, options, database, ) synopsis
+
+positions, zindex,sass, grid, flex,outliner, variables.
+emmit abbreviations
+

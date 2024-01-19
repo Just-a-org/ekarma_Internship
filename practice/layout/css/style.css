@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0%;
+	padding: 1%;
+	width: 98%;
+	height: 100vh;
+	text-align: center;
+	font-size: 1.3em;
+	/* overflow: hidden; */
+}
+
+nav ul {
+	text-align: end;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.ifr {
+	height: 100%;
+	width: 100%;
+	/* border: 1px solid black; */
+	overflow: hidden;
+}
+
+#home {
+	/* border: 1px solid red; */
+	font-family: "Times New Roman", Times, serif;
+	color: #12f;
+	/* background-color: #00204a; */
+	width: 100%;
+}
+
+#about {
+	/* border: 1px solid red; */
+	/* background-color: yellowgreen; */
+}
+#services {
+	/* border: 1px solid red; */
+	/* background-color: brown; */
+}
+#portfolio {
+	/* border: 1px solid red; */
+	/* background-color: lightsalmon; */
+	display: grid;
+	justify-items: center;
+}
+#team {
+	/* border: 1px solid red; */
+	/* background-color: lightseagreen; */
+}
+#career {
+	/* border: 1px solid red; */
+	/* background-color: cornflowerblue; */
+}
+
+#contact {
+	/* border: 1px solid red; */
+	/* background-color: steelblue; */
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	grid-auto-columns: 80%;
+}
+
+#faq {
+	/* border: 1px solid red; */
+	/* background-color: teal; */
+	display: grid;
+	justify-items: center;
+}
+
+.boxes {
+	display: flex;
+	justify-content: space-evenly;
+	/* border: 1px solid black; */
+}
+
+figure {
+	/* border: 1px solid black; */
+}
+
+.people-swipe {
+	width: 60%;
+	justify-content: flex-start;
+	overflow-x: scroll;
+}
+
+.gallery {
+	width: 50%;
+	display: flex;
+	/* border: 1px solid black; */
+	overflow-x: scroll;
+}
+
+.media img {
+	width: 3vw;
+	height: 5vh;
+}
+
+.container {
+	/* border: 1px solid black; */
+	display: flex;
+	height: max-content;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.col1 {
+	width: 48%;
+	overflow: hidden;
+}
+
+.col2 {
+	width: 48%;
+	/* border: 2px solid red; */
+}
+
+.col2 form {
+	display: grid;
+	row-gap: 3%;
+}
+
+.input-form {
+	padding: 2% 0% 2% 5%;
+	/* border-radius: 20px; */
+}
+.button-form {
+	width: 40%;
+}
+.line {
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	text-align: left;
+	width: 50%;
+	margin-left: 30%;
+}
+
+#footer-section {
+	display: flex;
+	height: 100%;
+	justify-content: space-evenly;
+}
+
+.links {
+	height: 100%;
+	/* border: 2px solid black; */
+	text-align: left;
+}
+
+.social-icons {
+	height: 100%;
+	/* border: 2px solid black; */
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0% 5% 0% 5%;
+}
+
+.social-icons img {
+	height: 5%;
+	width: 5%;
+}
