@@ -62,3 +62,52 @@ project:topics
 positions, zindex,sass, grid, flex,outliner, variables.
 emmit abbreviations
 
+bootstrap
+pagination,model, card, button
+
+task: bootstrap
+  btn popup form
+  btn hide show
+  btn hover change layout
+  animation
+  form
+  flex
+  slide
+  modal
+  cards
+
+-------------------------------------------------------------------
+#Javascript
+  client side scripting language
+  case sensitive language
+  loosely type language
+
+Static website vs Dynamic website
+client side vs server side
+language does not execute without server start are
+  php
+  reactjs
+  nodejs
+  python
+
+Interpreted language?
+  Scripts execute without pre compilation
+
+How to use Javascript? and Why?
+  internal vs external vs inline
+
+  Variable
+  data types
+    number
+    string
+    boolean
+    float
+    decimal
+
+1. What is Javascript?
+2. What can Javascript do?
+3. How to write Javascript statements?
+4. How to declare in variable in Javascript?
+5. What are variables rules?
+6. Difference between client side scripting language vs server side scripting language?
+7. Static vs Dynamic website?
