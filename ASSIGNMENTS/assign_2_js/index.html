@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Assignment 2 Java Script</title>
+	</head>
+	<body>
+		<h4>Get grade from score in subject</h4>
+		<script>
+			function getGrade(score) {
+				if (score >= 90) return "A";
+				if (score >= 80) return "B";
+				if (score >= 70) return "C";
+				if (score >= 60) return "D";
+				if (score >= 50) return "E";
+				return "F";
+			}
+
+			document.write(`<h1> 91 => ${getGrade(91)}</h1>`);
+			document.write(`<h1> 81 => ${getGrade(81)}</h1>`);
+			document.write(`<h1> 71 => ${getGrade(71)}</h1>`);
+			document.write(`<h1> 61 => ${getGrade(61)}</h1>`);
+			document.write(`<h1> 51 => ${getGrade(51)}</h1>`);
+			document.write(`<h1> 41 => ${getGrade(41)}</h1>`);
+		</script>
+	</body>
+</html>

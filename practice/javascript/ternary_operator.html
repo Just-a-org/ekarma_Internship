@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>conditional statements using ? and :</title>
+	</head>
+	<body>
+		<script>
+			function gradeMessage(grade) {
+				gotGrade =
+					grade >= 90
+						? "A"
+						: grade >= 80
+						? "B"
+						: grade >= 70
+						? "C"
+						: grade >= 60
+						? "D"
+						: grade >= 50
+						? "E"
+						: "F";
+				return gotGrade;
+			}
+
+			document.write(`<h1>${gradeMessage(99)}</h1>`);
+		</script>
+	</body>
+</html>
