@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			// function without Parameters
+
+			function getSum() {
+				let a = 56;
+				let b = 90;
+				let sum = a + b;
+				console.log(sum);
+			}
+			getSum();
+
+			//
+			// function with Parameters
+
+			function add(a, b) {
+				let sum = a + b;
+				console.log(sum);
+			}
+			add(2, 5);
+			add(32, 13);
+			add(22, 3);
+
+			//  function with default Parameters
+
+			function addition(a, b = 10) {
+				let sum1 = a + b;
+				console.log(sum1);
+			}
+			addition(4);
+
+			// function with return keyword
+
+			function addNumbers(n1, n2) {
+				let res = n1 + n2;
+				//console.log(res)
+				return res;
+			}
+			let result = addNumbers(40, 30);
+			console.log(result);
+
+			//
+
+			let data = function (a, b) {
+				return a + b;
+			};
+			let output = data(20, 10);
+			console.log(output);
+
+			// Arrow function
+
+			let myfun = (a) => console.log("the value of a=", a);
+
+			myfun(2);
+		</script>
+	</body>
+</html>
+functions.html Displaying functions.html.

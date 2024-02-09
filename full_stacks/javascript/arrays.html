@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			var city = "Delhi";
+
+			// Creating Array  Declaration and initialization of arrays:
+
+			let myArray = []; // declare empty array variable
+
+			myArray[0] = "Hello";
+			myArray[1] = "how";
+			myArray[2] = "you";
+
+			let colours = ["Pink", "blue", "red", "white"]; // initialization elements in array
+			colours.push("black", "white");
+			colours.unshift("yellow");
+			colours.pop();
+			// array.splice(position, deleted elements count , insert elements)
+
+			// only add new values at position 3
+			colours.splice(3, 0, "green", "darkpink");
+
+			// postion 6 element delete add new here
+			colours.splice(6, 1, "orange");
+
+			// alert(myArray.length)
+
+			// Access array values
+			console.log(colours[1]);
+			console.log(colours[0]);
+			console.log(colours[2]);
+			console.log(colours[3]);
+
+			// for loop
+			document.write("=========Using For loop========" + "<br />");
+
+			let count = colours.length;
+			for (let i = 0; i < count; i++) {
+				document.write(colours[i] + "<br />");
+			}
+
+			document.write("=========Using Foreach loop========" + "<br />");
+
+			// forEach loop
+
+			colours.forEach((element) => {
+				document.write(element + "<br />");
+			});
+
+			document.write("=========Using For of loop========" + "<br />");
+
+			for (const res of colours) {
+				document.write(res + "<br />");
+			}
+
+			document.write("=========Using For in loop========" + "<br />");
+
+			for (const x in colours) {
+				document.write(colours[x] + "<br />");
+			}
+		</script>
+	</body>
+</html>

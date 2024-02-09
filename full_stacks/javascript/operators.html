@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			/*   Arithmetic Operators */
+
+			let a = 45;
+			let b = 56;
+
+			let sum = a + b;
+			let sub = a - b;
+
+			document.write("The sum of two numbers =", sum + "<br />");
+
+			document.write("Sum of a and b=", sum + "<br />");
+
+			document.write(
+				"Sum of" +
+					"  " +
+					a +
+					" " +
+					"and" +
+					"  " +
+					b +
+					"  " +
+					"is=" +
+					sum +
+					"<br />"
+			);
+
+			// ES6  Template Literals
+
+			document.write(`The sum of ${a} and ${b} is = ${sum} `);
+
+			// Increment ++ (+1)  Post Increment (a++)  Pre Increment (++a)
+
+			let x = 20;
+			console.log(x++); // x+1=>20+1 =21
+			console.log(x); // 21
+			console.log(++x); // pre 21+1
+
+			/*   Comparison Operators */
+			let y = 89;
+			let z = 34;
+			console.log(z >= y); // false
+
+			console.log(z < y); //
+
+			let num1 = 23;
+			let num2 = "23";
+
+			console.log(num1 == num2); // checks only values
+
+			console.log(num1 === num2); // check values and data type also
+
+			/*   Logical Operators */
+
+			let x1 = 78;
+			let y1 = 32;
+			let z1 = 46;
+
+			console.log(x1 > y1 && x1 > z1); // true
+
+			console.log(y1 > z1 && x1 > z1); // false
+
+			console.log(y1 > z1 || x1 > z1); // true
+
+			/* Ternary Operator  */ //Syntax  <condition> ? <value1> : <value2>;
+
+			var a1 = 10;
+			var b1 = 5;
+
+			let c = a1 > b1 ? a1 : b1; // value of c would be 10
+
+			let d = a1 > b1 ? b1 : a1; // value of d would be 5
+
+			let res = a1 < b1 ? "a is greator" : "b is lesser";
+			console.log(res);
+		</script>
+	</body>
+</html>

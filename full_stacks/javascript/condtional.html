@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			// IF Statement
+
+			let num = -25;
+			if (num > 0) {
+				console.log("number is positive");
+			}
+
+			//  IF else Statement
+			let a = 49;
+			let b = 67;
+
+			if (a > b) {
+				console.log("a is greator");
+			} else {
+				console.log("b is greator");
+			}
+
+			// Number is even or odd
+
+			let number = 47;
+			if (number % 2 == 0) {
+				console.log("number is even");
+			} else {
+				console.log("number is odd");
+			}
+
+			// nested if
+			let age = 18;
+			let state = "Punjab";
+
+			if (state == "Punjab") {
+				if (age >= 18) {
+					console.log("You can drive.");
+				}
+			} else {
+				console.log("You cant drive.");
+			}
+
+			// login
+
+			let username = "user";
+			let password = "user123";
+
+			if (username === "user1" && password === "user123") {
+				// alert("user logged in")
+			} else {
+				//alert("Invalid username or password")
+			}
+
+			let weight = 70; // kg
+			let height = 1.72; // meter
+
+			// calculate the body mass index (BMI)
+			let bmi = weight / (height * height);
+
+			let weightStatus;
+
+			if (bmi < 18.5) {
+				weightStatus = "Underweight";
+			} else if (bmi >= 18.5 && bmi <= 24.9) {
+				weightStatus = "Healthy Weight";
+			} else if (bmi >= 25 && bmi <= 29.9) {
+				weightStatus = "Overweight";
+			} else {
+				weightStatus = "Obesity";
+			}
+
+			console.log(weightStatus);
+
+			// Ternary operator
+
+			// Syntax: condition ? <expression if true> : <expression if false>
+
+			a < b ? console.log("a is greator ") : console.log("b is greator");
+
+			// Nested ternary opeartor
+			const score = 45;
+
+			const scoreRating =
+				score > 70
+					? "Excellent"
+					: score > 50
+					? "Average"
+					: score > 40
+					? "Fair"
+					: "Do better";
+
+			console.log(scoreRating);
+			// "Fair"
+		</script>
+	</body>
+</html>
