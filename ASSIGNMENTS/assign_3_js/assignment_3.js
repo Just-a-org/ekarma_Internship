@@ -77,7 +77,7 @@ quesEndLine(); */
 // ----------------------------------
 
 // ----------------------------------
-console.log(
+/* console.log(
 	`4. Write a function that takes an array of integers as input and returns a new array with only the unique elements.`,
 );
 
@@ -85,17 +85,6 @@ const userInputs3 = promptMultipleNumbers();
 
 function getUniqueNumbers (arr) {
 	const uniqueNumbers = [];
-	// arr.forEach((element) => {
-	// 	if (!arr[element]) {
-	// 		uniqueNumbers.push(element);
-	// 	}
-	// });
-
-	// for (const iterator of arr) {
-	// 	if (!uniqueNumbers.find(iterator)) {
-	// 		uniqueNumbers.push(iterator);
-	// 	}
-	// }
 
 	arr.forEach((currentItem) => {
 		if (!uniqueNumbers.includes(currentItem)) {
@@ -112,7 +101,7 @@ console.log(
 	) } from numbers ${ userInputs3 }}`,
 );
 
-quesEndLine();
+quesEndLine(); */
 // ----------------------------------
 
 // ----------------------------------
@@ -152,6 +141,17 @@ quesEndLine(); */
 console.log(
 	`7. Write a program to create 5 employees data in object and print all data using map function.`,
 );
+
+const employeesData = [];
+
+for (let index = 0; index < 2; index++) {
+	let name = prompt("Enter Name of the Employee");
+	let salary = prompt("Enter Salary of the Employee");
+	let dept = prompt("Enter Department of the Employee");
+	employeesData.push({ name, salary, dept });
+}
+
+const employeesInfo = employeesData.map((data) => console.log(`Name: ${ data.name }		Salary: ${ data.salary }		Department: ${ data.dept }`));
 quesEndLine();
 // ----------------------------------
 
