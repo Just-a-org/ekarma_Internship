@@ -8,37 +8,38 @@ function secEndLine() {
 }
 
 //utility function
-
-function inpMultNums() {
-  const arr = [];
-  const range = prompt("Enter range/length of array you wish to have");
-  for (let i = 0; i < range; i++) {
-    const num = parseInt(prompt("Please Enter a Number"));
-    !isNaN(num) ? arr.push(num) : 0;
+const { inpMultNums, empEnt, ques, ans } = (() => {
+  function inpMultNums() {
+    const arr = [];
+    const range = prompt("Enter range/length of array you wish to have");
+    for (let i = 0; i < range; i++) {
+      const num = parseInt(prompt("Please Enter a Number"));
+      !isNaN(num) ? arr.push(num) : 0;
+    }
+    return arr;
   }
-  return arr;
-}
 
-//utility function
+  function empEnt() {
+    const name = prompt("Enter Name of the Employee");
 
-function empEnt() {
-  const name = prompt("Enter Name of the Employee");
+    let salary = parseInt(prompt("Enter Salary of the Employee"));
+    salary = isNaN(salary) ? 0 : salary;
 
-  let salary = parseInt(prompt("Enter Salary of the Employee"));
-  salary = isNaN(salary) ? 0 : salary;
+    const dept = prompt("Enter Department of the Employee");
 
-  const dept = prompt("Enter Department of the Employee");
+    return { name, salary, dept };
+  }
 
-  return { name, salary, dept };
-}
+  function ques(params) {
+    return console.log("Question:", params);
+  }
 
-function ques(params) {
-  console.log("Question:", params);
-}
+  function ans(params) {
+    return console.log("Answer:", params);
+  }
 
-function res(params) {
-  console.log(params);
-}
+  return { inpMultNums, empEnt, ques, ans };
+})();
 
 // question-1
 
@@ -56,7 +57,7 @@ function res(params) {
 
   const sumRes = calcSum(num1, num2);
 
-  res(`Sum of numbers ${num1} and ${num2} is ${sumRes}`);
+  ans(`Sum of numbers ${num1} and ${num2} is ${sumRes}`);
   secEndLine();
 })();
 
@@ -79,7 +80,7 @@ function res(params) {
 
   const maxNum = findMaxNum(usrInps);
 
-  res(` maximum number is ${maxNum} from ${usrInps}`);
+  ans(` maximum number is ${maxNum} from ${usrInps}`);
   secEndLine();
 })();
 
@@ -98,7 +99,7 @@ function res(params) {
 
   const evnNums = getEvnNums(usrInps);
 
-  res(`Even numbers are ${evnNums} from ${usrInps}`);
+  ans(`Even numbers are ${evnNums} from ${usrInps}`);
   secEndLine();
 })();
 
@@ -180,7 +181,7 @@ function res(params) {
 
   const emplsDat = [];
 
-  for (let i = 0; i < 1; i++) {
+  for (let i = 0; i < 5; i++) {
     emplsDat.push(empEnt());
   }
 
@@ -202,8 +203,12 @@ function res(params) {
 
   const emplsDat = [];
 
+  for (let i = 0; i < 5; i++) {
+    emplsDat.push(empEnt());
+  }
+
   const filtEmplsInfo = emplsDat.filter((data) => {
-    return data.salary > 0;
+    return data.salary > 20000 && data.dept === "sales";
   });
 
   const emplsInfo = filtEmplsInfo;

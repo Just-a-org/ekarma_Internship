@@ -25,8 +25,7 @@
 23. use of comment for blocks or function
 24. separate helper function with good comment at top or separate file.
 25. build structure first: helper, utilities functions
-
-use more of **IIFE** for safety : syntax
-`const {variableName} = (function () { return {variableName} })()`
-
+26. use more of **IIFE** for safety
+    : syntax
+    `const {variableName} = (function () { return {variableName} })();`
 27. lexical scoping

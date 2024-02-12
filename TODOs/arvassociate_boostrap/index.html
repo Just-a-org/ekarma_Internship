@@ -1,136 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Bootstrap demo</title>
-		<link rel="stylesheet" href="style.css">
-		<!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" /> -->
-		<!-- <link
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" /> -->
+    <!-- <link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" /> -->
-	</head>
-	<body>
-		<div class="navbar navbar-expand-sm text-primary">
-			<div class="container">
-				<button
-					class="navbar-toggler bg-white"
-					aria-expanded="true"
-					data-bs-toggle="collapse"
-					data-bs-target="#nav-bar">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse border-3 border" id="nav-bar">
-					<ul class="navbar-nav">
-						<li class="nav-item"><button class="btn">Home</button></li>
-						<li class="nav-item"><button class="btn">About Us</button></li>
-						<li class="nav-item"><button class="btn">Our Team</button></li>
-						<li class="nav-item"><button class="btn">Approach</button></li>
-						<li class="nav-item dropdown">
-							<button
-								class="btn dropdown-toggle"
-								type="button"
-								data-bs-toggle="dropdown"
-								data-bs-auto-close="true"
-								aria-expanded="true">
-								Services
-							</button>
-							<ul class="dropdown-menu">
-								<li class="dropdown-item">Coporate Services</li>
-								<li class="dropdown-item">Audit Services</li>
-								<li class="dropdown-item">Corporate Finance</li>
-								<li class="dropdown-item">Management & Accounting Services</li>
-								<li class="dropdown-item">Registrations</li>
-								<li class="dropdown-item">Payroll</li>
-								<li class="dropdown-item">GST</li>
-								<li class="dropdown-item">Income Tax</li>
-								<li class="dropdown-item">Tax Deducted At Source (TDS)</li>
-							</ul>
-						</li>
+  </head>
+  <body>
+    <div class="navbar navbar-expand-sm text-primary">
+      <div class="container">
+        <button
+          class="navbar-toggler bg-white"
+          aria-expanded="true"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-bar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse border-3 border" id="nav-bar">
+          <ul class="navbar-nav">
+            <li class="nav-item"><button class="btn">Home</button></li>
+            <li class="nav-item"><button class="btn">About Us</button></li>
+            <li class="nav-item"><button class="btn">Our Team</button></li>
+            <li class="nav-item"><button class="btn">Approach</button></li>
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="true"
+                aria-expanded="true"
+              >
+                Services
+              </button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">Coporate Services</li>
+                <li class="dropdown-item">Audit Services</li>
+                <li class="dropdown-item">Corporate Finance</li>
+                <li class="dropdown-item">Management & Accounting Services</li>
+                <li class="dropdown-item">Registrations</li>
+                <li class="dropdown-item">Payroll</li>
+                <li class="dropdown-item">GST</li>
+                <li class="dropdown-item">Income Tax</li>
+                <li class="dropdown-item">Tax Deducted At Source (TDS)</li>
+              </ul>
+            </li>
 
-						<li class="nav-item dropdown">
-							<button
-								class="btn dropdown-toggle"
-								type="button"
-								data-bs-toggle="dropdown"
-								data-bs-auto-close="outside"
-								data
-								aria-expanded="true">
-								GST Tools
-							</button>
-							<ul class="dropdown-menu">
-								<li class="dropdown-item">GST Portal</li>
-								<li class="dropdown-item">E way bill portal</li>
-								<li class="dropdown-item">
-									<button
-										class="btn dropdown-toggle"
-										type="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="true">
-										Act
-									</button>
-									<ul class="dropdown-menu">
-										<li class="dropdown-item">CGST</li>
-										<li class="dropdown-item">IGST</li>
-										<li class="dropdown-item">UTGST</li>
-										<li class="dropdown-item">
-											GST Compensation States Act 2017
-										</li>
-										<li class="dropdown-item">
-											GST 101 Constitution Amendment Act, 2016
-										</li>
-									</ul>
-								</li>
-								<li class="btn dropdown-item">
-									<button
-										class="btn dropdown-toggle"
-										type="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="false">
-										Rules
-									</button>
-									<ul class="dropdown-menu">
-										<li class="dropdown-item">CGST Rules 2017 Part A</li>
-										<li class="dropdown-item">CGST Rules 2017 Part B</li>
-										<li class="dropdown-item">IGST Rules 2017</li>
-									</ul>
-								</li>
-								<li class="dropdown-item">
-									<button
-										class="btn dropdown-toggle"
-										type="button"
-										aria-expanded="false"
-										data-bs-toggle="dropdown">
-										Circular
-									</button>
-									<ul class="dropdown-menu">
-										<li class="dropdown-item">CGST Circular</li>
-										<li class="dropdown-item">IGST Circular</li>
-										<li class="dropdown-item">Compensation Cess</li>
-										<li class="dropdown-item">CGST Order</li>
-										<li class="dropdown-item">UTGST Order</li>
-										<li class="dropdown-item">Ordinance</li>
-										<li class="dropdown-item">Instructions</li>
-										<li class="dropdown-item">Removal of Diffculty Order</li>
-									</ul>
-								</li>
-								<li class="dropdown-item">Notification</li>
-								<li class="dropdown-item">Form</li>
-								<li class="dropdown-item">HSN Code With Rate</li>
-								<li class="dropdown-item">SAC Code</li>
-							</ul>
-						</li>
-						<li class="nav-item">Important</li>
-						<li class="nav-item">Links</li>
-						<li class="nav-item">Knowledge</li>
-						<li class="nav-item">Base</li>
-						<li class="nav-item">Contact Us</li>
-						<li class="nav-item">Blog</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-		<!-- <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
-	</body>
+            <li class="nav-item dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                data
+                aria-expanded="true"
+              >
+                GST Tools
+              </button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">GST Portal</li>
+                <li class="dropdown-item">E way bill portal</li>
+                <li class="dropdown-item">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="true"
+                  >
+                    Act
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">CGST</li>
+                    <li class="dropdown-item">IGST</li>
+                    <li class="dropdown-item">UTGST</li>
+                    <li class="dropdown-item">
+                      GST Compensation States Act 2017
+                    </li>
+                    <li class="dropdown-item">
+                      GST 101 Constitution Amendment Act, 2016
+                    </li>
+                  </ul>
+                </li>
+                <li class="btn dropdown-item">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Rules
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">CGST Rules 2017 Part A</li>
+                    <li class="dropdown-item">CGST Rules 2017 Part B</li>
+                    <li class="dropdown-item">IGST Rules 2017</li>
+                  </ul>
+                </li>
+                <li class="dropdown-item">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    aria-expanded="false"
+                    data-bs-toggle="dropdown"
+                  >
+                    Circular
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">CGST Circular</li>
+                    <li class="dropdown-item">IGST Circular</li>
+                    <li class="dropdown-item">Compensation Cess</li>
+                    <li class="dropdown-item">CGST Order</li>
+                    <li class="dropdown-item">UTGST Order</li>
+                    <li class="dropdown-item">Ordinance</li>
+                    <li class="dropdown-item">Instructions</li>
+                    <li class="dropdown-item">Removal of Diffculty Order</li>
+                  </ul>
+                </li>
+                <li class="dropdown-item">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    aria-expanded="false"
+                    data-bs-toggle="dropdown"
+                  >
+                    Notification
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item">Central Tax Rate</li>
+                    <li class="dropdown-item">Central Tax</li>
+                    <li class="dropdown-item">Integrated Tax Rate</li>
+                    <li class="dropdown-item">Integrated Tax</li>
+                    <li class="dropdown-item">Union Territory Tax</li>
+                    <li class="dropdown-item">Union Territory Tax Rate</li>
+                    <li class="dropdown-item">Compensation Cess</li>
+                    <li class="dropdown-item">Compensation Cess Rate</li>
+                  </ul>
+                </li>
+                <li class="dropdown-item">Form</li>
+                <li class="dropdown-item">HSN Code With Rate</li>
+                <li class="dropdown-item">SAC Code</li>
+              </ul>
+            </li>
+            <li class="nav-item">Tools</li>
+            <li class="nav-item">Important Links</li>
+            <li class="nav-item">Knowledge Base</li>
+            <li class="nav-item">Contact Us</li>
+            <li class="nav-item">Blog</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#carouselId"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="First slide"
+        ></li>
+        <li
+          data-bs-target="#carouselId"
+          data-bs-slide-to="1"
+          aria-label="Second slide"
+        ></li>
+        <li
+          data-bs-target="#carouselId"
+          data-bs-slide-to="2"
+          aria-label="Third slide"
+        ></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="banner-1.jpg" class="w-100 d-block" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="banner-2.jpg" class="w-100 d-block" alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="banner-3.jpg"
+            class="w-100 d-block"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselId"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselId"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+  </body>
 </html>
