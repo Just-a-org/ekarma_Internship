@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        color: black;
+        border: solid red black;
+        line-height: 120px;
+        padding: 0px 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2 id="clock">12:03 PM</h2>
+    </div>
+
+    <script>
+      function checkTime() {
+        let date = new Date();
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let seconds = date.getSeconds();
+
+        // Update hours value if greater than 12
+
+        if (hours > 12) {
+          hours = hours - 12;
+        }
+        if (hours < 10) {
+          hours = "0" + hours;
+        }
+
+        let time = hours + ":" + minutes + ":" + seconds;
+        console.log(time);
+        document.getElementById("clock").innerHTML = time;
+      }
+      setInterval(checkTime, 1000);
+    </script>
+  </body>
+</html>

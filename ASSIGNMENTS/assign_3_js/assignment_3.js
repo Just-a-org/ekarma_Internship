@@ -2,10 +2,7 @@
 
 //helper funciton
 
-function secEndLine() {
-  const sym = "=".repeat(20);
-  console.log(`${sym}\n\n`);
-}
+secEndLine = () => console.log("=".repeat(20), "\n\n");
 
 //utility function
 const { inpMultNums, empEnt, ques, ans } = (() => {
@@ -46,14 +43,14 @@ const { inpMultNums, empEnt, ques, ans } = (() => {
 (function () {
   ques("1. Write a JavaScript function to calculate the sum of two numbers.");
 
-  function calcSum(num1, num2) {
+  calcSum = (num1, num2) => {
     if (!isNaN(num1) && !isNaN(num2)) {
       return num1 + num2;
     }
   }
 
-  const num1 = 0 | parseInt(prompt("Enter first number"));
-  const num2 = 0 | parseInt(prompt("Enter Second Number"));
+  const num1 = parseInt(prompt("Enter first number")) || 0;
+  const num2 = parseInt(prompt("Enter Second Number")) || 0;
 
   const sumRes = calcSum(num1, num2);
 
@@ -207,11 +204,10 @@ const { inpMultNums, empEnt, ques, ans } = (() => {
     emplsDat.push(empEnt());
   }
 
-  const filtEmplsInfo = emplsDat.filter((data) => {
-    return data.salary > 20000 && data.dept === "sales";
-  });
+  const emplsInfo = emplsDat.filter(
+    (data) => data.salary > 20000 && data.dept === "sales"
+  );
 
-  const emplsInfo = filtEmplsInfo;
   console.log(emplsInfo);
   secEndLine();
 })();

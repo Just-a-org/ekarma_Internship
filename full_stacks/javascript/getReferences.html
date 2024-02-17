@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="content">
+      <h2 id="title">Welcome Ekarma</h2>
+      <p id="desc">
+        Using DOM, JavaScript can perform multiple tasks. It can create new
+        elements and attributes, change the existing elements and attributes and
+        even remove existing elements and attributes.
+      </p>
+    </div>
+    <input type="text" value="" id="fname" placeholder="first name" />
+    <p>Result <input type="text" value="" id="res" /></p>
+    <!-- <button type="button" onclick="fname()">Submit</button> -->
+    <script>
+      // get data or set data
+      let title = document.getElementById("title").textContent;
+      // alert(title)
+
+      let desc = document.querySelector("#desc").textContent;
+      // alert(desc)
+
+      function fname() {
+        let desc = document.querySelector("#desc").textContent;
+        alert(desc);
+        // let firstname=document.querySelector("#fname").value;
+        // document.getElementById("res").value=firstname;
+        // document.getElementById("title").textContent=firstname;
+        // document.getElementById("title").innerHTML=firstname;
+
+        alert(firstname);
+      }
+
+      // setTimeout(fname, 5000)
+      setInterval(fname, 5000);
+    </script>
+  </body>
+</html>
