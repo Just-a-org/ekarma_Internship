@@ -1,22 +1,15 @@
-const dt = new Date();
-
 const dtElem = document.getElementById("date");
 const tmElem = document.getElementById("time");
 
-console.log(dt.getMonth());
+const dt = new Date();
+function fnFmt(key, prop, lang = "en-US") {
+	const fmt = new Intl.DateTimeFormat(lang, { [key]: prop });
 
-function fnFmt(var1, var2, var3) {
-	const var1 = new Intl.DateTimeFormat("hin", { [var2]: var3 });
+	return fmt.format(dt);
 }
 
-Date.prototype.getMonth = function (fmt = "long") {
-	return new Intl.DateTimeFormat("en-US", { month: fmt }).format(this);
-};
+const fullDate = fnFmt("dateStyle", "full");
+const fulltime = fnFmt("timeStyle", "medium");
 
-const day = fmt.format(dt);
-
-const fmtMnth = new Intl.DateTimeFormat("hin", { month: "long" });
-const mnth = fmtMnth.format(dt);
-
-console.log(day);
-console.log(mnth);
+dtElem.textContent = fullDate;
+tmElem.textContent = fulltime;
