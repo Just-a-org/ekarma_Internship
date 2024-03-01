@@ -3,20 +3,20 @@ const dt = new Date();
 const dtElem = document.getElementById("date");
 const tmElem = document.getElementById("time");
 
-const wkElem = dt.getDay();
-const mnthElem = dt.getMonth();
-const dyElem = dt.getDate();
-const fyElem = dt.getFullYear();
+console.log(dt.getMonth());
 
-const hrElem = dt.getHours();
-const minElem = dt.getMinutes();
-const secElem = dt.getSeconds();
+function fnFmt(var1, var2, var3) {
+	const var1 = new Intl.DateTimeFormat("hin", { [var2]: var3 });
+}
 
-const arrDay = ["Monday","Tuesday", "Webnesday",]
-const arrMnth = ["January", "February", "March", "April","June", "July", "August", "September","October", "November", "December"]
+Date.prototype.getMonth = function (fmt = "long") {
+	return new Intl.DateTimeFormat("en-US", { month: fmt }).format(this);
+};
 
-dtElem.textContent = wkElem + " " + mnthElem + " " + dyElem + " " + fyElem;
-tmElem.textContent = hrElem + " " + minElem + " " + secElem;
+const day = fmt.format(dt);
 
-// console.log(wkElem, mnthElem, dyElem, fyElem);
-// console.log(hrElem, minElem, secElem);
+const fmtMnth = new Intl.DateTimeFormat("hin", { month: "long" });
+const mnth = fmtMnth.format(dt);
+
+console.log(day);
+console.log(mnth);
