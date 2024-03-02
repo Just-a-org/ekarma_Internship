@@ -1,15 +1,22 @@
 const dtElem = document.getElementById("date");
 const tmElem = document.getElementById("time");
 
-const dt = new Date();
-function fnFmt(key, prop, lang = "en-US") {
-	const fmt = new Intl.DateTimeFormat(lang, { [key]: prop });
+function dateFmt(date, dateType, type, lang = "en-US") {
+	const fmt = new Intl.DateTimeFormat(lang, { [dateType]: type });
 
-	return fmt.format(dt);
+	return fmt.format(date);
 }
 
-const fullDate = fnFmt("dateStyle", "full");
-const fulltime = fnFmt("timeStyle", "medium");
+function update() {
+	const dt = new Date();
 
-dtElem.textContent = fullDate;
-tmElem.textContent = fulltime;
+	const fullDate = dateFmt(dt, "dateStyle", "full");
+	const fullTime = dateFmt(dt, "timeStyle", "medium");
+
+	dtElem.textContent = fullDate;
+	tmElem.textContent = fullTime;
+
+	setTimeout( update, 1000 );
+}
+
+update();
